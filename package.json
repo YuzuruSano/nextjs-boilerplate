@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "serve": "yarn export && serve ./out"
+    "serve": "yarn export && js-beautify --html --replace './out/**/*.html' && serve ./out"
   },
   "husky": {
     "hooks": {
@@ -32,6 +32,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/server": "^11.0.0",
     "@emotion/styled": "^11.1.5",
+    "js-beautify": "^1.13.5",
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
