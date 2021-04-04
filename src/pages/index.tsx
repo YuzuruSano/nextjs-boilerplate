@@ -1,6 +1,6 @@
-import Layout from '~/pages/components/layouts/Layout';//ここでレイアウトの変更可能
+import Layout from '~/layouts/Layout';//ここでレイアウトの変更可能
 import Image from 'next/image'
-import {btn, btnRed} from '~/pages/components/Btn'
+import {btn, btnRed} from '~/components/Btn'
 import tw, { css } from 'twin.macro'
 
 const Index = () => (

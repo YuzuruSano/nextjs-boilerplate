@@ -1,8 +1,8 @@
-import Header from '~/pages/components/layouts/Header';
-import Footer from '~/pages/components/layouts/Footer';
+import Header from '~/layouts/Header';
+import Footer from '~/layouts/Footer';
 import tw, { css } from 'twin.macro'
 
-const Layout = (Page: EmotionJSX.Element) => {
+const Layout = (Page: any) => {
   return () => (
     <>
       <Header />
